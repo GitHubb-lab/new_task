@@ -1,0 +1,10 @@
+---
+- name: Playbook
+  hosts: localhost
+  gather_facts: true
+  vars:
+   new: "Hello world"
+  tasks:
+   - name: Task1
+     debug:
+       msg: "{{new}}"
