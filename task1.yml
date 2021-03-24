@@ -1,6 +1,6 @@
 ---
 - name: Playbook
-  hosts: localhost
+  hosts: webservers
   gather_facts: true
   vars:
    new: "Hello world"
