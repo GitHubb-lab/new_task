@@ -1,6 +1,6 @@
 ---
 - name: Playbook
-  hosts: webservers
+  hosts: 172.31.27.109
   gather_facts: true
   vars:
    new: "Hello world"
