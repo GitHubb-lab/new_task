@@ -1,1 +1,2 @@
-localhost
+[webservers]
+172.31.27.109 ansible_user=ec2-user
