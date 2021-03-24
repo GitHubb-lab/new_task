@@ -1,7 +1,6 @@
 ---
 - name: Playbook
   hosts: all
-  become_user: root
   gather_facts: false
   vars:
    new: "Hello world"
